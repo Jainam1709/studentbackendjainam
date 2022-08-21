@@ -26,10 +26,10 @@ Studentrepository studentrepository;
        if(!studentexistance)
        {
            studentrepository.save(student);
-           return " Student Save Successfully";
+           return " Student added Successfully";
        }
        else {
-           return "Student already exist";
+           return "Student already exist ";
        }
     }
 
